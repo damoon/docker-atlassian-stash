@@ -1,4 +1,4 @@
-FROM java:8-re
+FROM java:openjdk-8-jre
 
 # setup useful environment variables
 ENV STASH_HOME     /var/local/atlassian/stash
